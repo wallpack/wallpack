@@ -1,52 +1,65 @@
-# Иван / wallpack
+# Ivan / wallpack
 
-Разрабатываю веб-сервисы, админ-панели и пользовательские интерфейсы на Laravel + Vue.
+Full-stack developer focused on Laravel, Vue, admin panels, and production-ready web services.
 
-Сейчас основной проект - **Nethammereda**: система заказа обедов с каталогом блюд, корзиной, личным кабинетом, холодильником, админ-панелью, экспортом поставщику и Telegram-авторизацией.
+I build practical systems with clear business logic, clean interfaces, safe deployment workflows, and reliable admin tooling.
 
-## About
+## Main focus
 
-Я работаю с продуктовой логикой, интерфейсами для пользователей и внутренними операционными панелями. В проектах держу фокус на понятных сценариях, безопасном Git workflow, тестах и аккуратном production-процессе.
+- Laravel backend development
+- Vue 3 frontend interfaces
+- Filament admin panels
+- Telegram Bot / WebApp integrations
+- Food ordering and internal operations systems
+- VPS deployment, queues, Nginx, PHP-FPM
+- Testing, release checks, and production smoke verification
 
-## Main Project
-
-### Nethammereda
-
-Сервис для недельных циклов заказа еды:
-
-- каталог блюд с фото, весом и ценами
-- корзина и оформление заказа
-- личный кабинет: мой заказ, история, холодильник
-- админ-панель для циклов, заказов, блюд, пользователей и экспортов
-- CSV/XLSX экспорт поставщику
-- Telegram-авторизация и WebApp-сценарии
-- тесты и production smoke checks
-
-Репозиторий: https://github.com/wallpack/nethammereda
-
-## Tech Stack
+## Tech stack
 
 `PHP` · `Laravel` · `Vue 3` · `Vite` · `Tailwind CSS` · `Filament` · `MySQL` · `Telegram Bot API` · `Linux` · `Nginx` · `GitHub Actions`
 
-## What I Can Do
+## Featured project
 
-- Laravel backend: API, бизнес-логика, очереди, тесты
-- Vue 3 frontend: каталог, корзина, личный кабинет, адаптивный UI
-- Filament admin: операционные панели, таблицы, фильтры, экспорт
-- Telegram Bot / WebApp интеграции
-- Production deploy на VPS: Nginx, PHP-FPM, queue worker, smoke checks
-- Git workflow: ветки, worktree, безопасный deploy, rollback reports
+### Nethammereda
 
-## Workflow / Quality
+Nethammereda is a Laravel + Vue food ordering system built around weekly order cycles.
 
-- сначала аудит и план
-- затем минимальные безопасные изменения
-- тесты перед деплоем
-- backup перед production
-- smoke checks после деплоя
-- не смешиваю крупные задачи в один risky commit
+It includes:
 
-## Contacts
+- food catalog with photos, prices, and weights
+- cart and order flow
+- personal account area
+- order history
+- fridge-style saved meals
+- Filament admin panel
+- weekly order cycles
+- CSV/XLSX supplier exports
+- Telegram authentication
+- production deploy workflow with backups and smoke checks
+
+Repository:
+https://github.com/wallpack/nethammereda
+
+## How I work
+
+- audit first, then implement
+- keep changes focused and reversible
+- avoid mixing unrelated tasks
+- write and run tests before deployment
+- create backups before production changes
+- verify releases with smoke checks
+- keep admin workflows simple and understandable
+
+## Current interests
+
+- Laravel applications with real business workflows
+- Vue interfaces for ordering and dashboards
+- clean admin UX
+- Telegram WebApp integrations
+- safe deployment automation
+- improving code quality through tests and reviews
+
+## Contact
 
 - Email: wallpack@proton.me
 - GitHub: https://github.com/wallpack
